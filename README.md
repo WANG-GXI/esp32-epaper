@@ -1,6 +1,7 @@
 # esp32-epaper
-使用VScode-platformio
-注意事项：【1】建议修改分区。我的方案如下
+# 使用VScode-platformio
+## 注意事项：
+          【1】建议修改分区。我的方案如下
           # Name,   Type, SubType, Offset,  Size, Flags
           nvs,      data, nvs,     0x9000,  0x5000,
           otadata,  data, ota,     0xe000,  0x2000,
